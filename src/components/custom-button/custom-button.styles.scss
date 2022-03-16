@@ -1,0 +1,20 @@
+.custom-button {
+  button {
+    color: #fff;
+    background: #000;
+    text-transform: capitalize;
+    width: 200%;
+    height: 50px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-bottom: 80px;
+    transition: background-color 0.2s ease-in;
+    &:hover {
+      background-color: #fff;
+      color: #000;
+      transition: background-color 0.2s ease-in;
+    }
+  }
+}
