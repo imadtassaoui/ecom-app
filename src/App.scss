@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
 
-$font: "Roboto", sans-serif;
-
+@font-face {
+  font-family: "Nimbus";
+  src: url("./fonts/Nimbus\ Sans\ Becker\ PBla\ Regular.ttf") format("woff2");
+}
+$font: "Nimbus", sans-serif;
 * {
   margin: 0;
   padding: 0;
   font-family: $font;
+  letter-spacing: 1px;
+  font-weight: 600;
 }

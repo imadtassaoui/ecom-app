@@ -1,0 +1,28 @@
+.preview {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  .images {
+    position: relative;
+    width: 100%;
+    img {
+      width: 100%;
+      cursor: pointer;
+    }
+    .primary {
+      position: absolute;
+      left: 0;
+      transition: opacity ease-in-out 0.5s;
+      &:hover {
+        opacity: 0;
+        transition: opacity ease-in-out 0.5s;
+      }
+    }
+  }
+  .text {
+    width: 100%;
+    .price {
+      opacity: 0.6;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.collection-preview {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  margin-top: 40px;
+  padding: 0 40px;
+  box-sizing: border-box;
+  .title {
+    font-size: 8em;
+    position: absolute;
+  }
+  .container {
+    width: 100%;
+    .collection {
+      margin-top: 110px;
+      width: 100%;
+      display: flex;
+      gap: 20px;
+    }
+    .action {
+      font-size: 3em;
+      text-decoration: underline;
+      cursor: pointer;
+      display: flex;
+      justify-content: end;
+      margin-top: 20px;
+      margin-right: 60px;
+    }
+  }
+}
