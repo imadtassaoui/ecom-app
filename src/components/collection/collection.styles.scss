@@ -1,0 +1,24 @@
+.collection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 0 40px;
+  z-index: -1;
+  .collection-title {
+    font-size: 8em;
+    position: absolute;
+  }
+  .collection-infos {
+    width: 100%;
+    margin: 160px 0 60px;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .collection-items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

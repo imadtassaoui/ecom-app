@@ -8,8 +8,8 @@ const CollectionPreview = ({ title }) => {
   return (
     <div className="collection-preview">
       <h1 className="title">{title}</h1>
-      <div className="container">
-        <div className="collection">
+      <div className="collection-preview-container">
+        <div className="collection-preview-items">
           <Preview />
           <Preview />
           <Preview />

@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
+
+import "./sign-in.styles.scss";
 
 import Login from "../../components/login/login.component";
 import Register from "../../components/register/register.component";
 
-import "./sign-in.styles.scss";
-
 const SignIn = () => {
+  const [log, toggleLog] = useState(true);
+  const toggleL = () => {
+    return toggleLog(!log);
+  };
   return (
     <div className="sign-in">
-      <Login />
-      <Register />
+      {log ? <Login toggleL={toggleL} /> : <Register toggleL={toggleL} />}
     </div>
   );
 };

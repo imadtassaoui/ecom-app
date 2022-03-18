@@ -3,20 +3,20 @@
   flex-direction: column;
   position: relative;
   width: 100%;
-  margin-top: 40px;
+  margin: 40px 0;
   padding: 0 40px;
-  box-sizing: border-box;
   .title {
     font-size: 8em;
     position: absolute;
+    margin-left: 10px;
   }
-  .container {
+  .collection-preview-container {
     width: 100%;
-    .collection {
+    .collection-preview-items {
       margin-top: 110px;
       width: 100%;
       display: flex;
-      gap: 20px;
+      flex-wrap: wrap;
     }
     .action {
       font-size: 3em;

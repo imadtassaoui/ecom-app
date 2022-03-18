@@ -1,0 +1,16 @@
+.split-banner {
+  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/zara-studio-21010-0070-078-04-qc-1634146090.jpg?resize=768:*);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -250px;
+  color: #fff;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  h1 {
+    width: 50%;
+    font-size: 60px;
+    margin-left: 10%;
+  }
+}

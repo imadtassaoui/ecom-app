@@ -11,4 +11,14 @@ $font: "Nimbus", sans-serif;
   font-family: $font;
   letter-spacing: 1px;
   font-weight: 600;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  &:focus {
+    outline: none;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
